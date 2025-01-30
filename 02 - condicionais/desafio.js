@@ -25,4 +25,4 @@ if (typoCombustivel === "gasolina") {
     console.log(`o valor gasto de combustivel ${typoCombustivel} é de ${valorGastoG}`)
 } else {
     console.log(`O valor gasto de combustivel ${typoCombustivel} é de ${valorGastoE}`)
-};
+}
