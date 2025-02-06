@@ -1,35 +1,20 @@
 
 
 
-
-//peso dividido por altura altura
-function CalcularIMC (peso, altura){
-    return peso / (altura*altura) 
-}
-//calculo de IMC  em função 
-function ClassificarImc(imc){
-    if(imc < 18.5){
-        return `abaixo do peso`;
-    } else if(imc >= 18.5 && imc <= 25){
-        return `peso normal`;
-    }else if (imc > 25 && imc <= 30){
-        return `acima do peso`;
-    }else if ( imc > 30 && imc <= 40){
-        return `Obeso`;
-    }else {
-        return `obesidade grave`;
+//função escreva meu nome
+    function EscrevaSeuNome (nome){
+        return (`Seu nome é ${nome}`);
     }
-}
-//função principal onde vamos usar novas funcoes para adicionar ao calculo
-(function main (){
-    const peso = 106;
-    const altura = 1.87;
     
-    const imc = CalcularIMC(peso, altura);
-    console.log (ClassificarImc(imc));
-})();
-//uma função que esta executando e sendo envocada sem usar o parametro main 
-//  so fecharem() a propria função.
-
-/*funções ainda são objetos que conseguimos manipular  quando damos console.log na função retorna 
- função: nome da função */
+    
+   //função escreva minha idade com o return do nome
+    function Aidade (idade){
+        if (idade >=18){
+            console.log(EscrevaSeuNome(`gustavo`)+ ` sou maior de idade`)
+        }else{
+            console.log(`menor de idade`)
+        }
+    }
+    Aidade(27);
+    //função sao pequenos problemas que consigo invocar quando quiser
+    // posso juntar  uma função a outra somente utilizando o return na função em vez do console.log
