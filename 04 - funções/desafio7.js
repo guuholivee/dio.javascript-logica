@@ -22,6 +22,6 @@ if (formaDpagamento === 1){
 
  console.log(10/100);
 
- // aplicando a função diminuimos o codigo sem as conttas para juros ou desconto 
+ // aplicando a função diminuimos o codigo sem as contas para juros ou desconto 
  //chamando a função juros ou desconto na formula aplicamos de maneira mais organizada
  
